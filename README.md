@@ -72,4 +72,4 @@ We also compute the vehicle distance from road center. To do this we assumed tha
 ## Detecting Lane Lines 
 ***
 
-The [video]("output_images/output_tracked2.mp4) demonstrate our results. Lane lines were successfully detected and tracked. One difficulty occured when a vehicle passed on the right. Evidently, the algorithm picked up on this vehicle as possible lane lines leading to a "flicker". 
+The [video](https://github.com/Cianrn/Advanced-Lane-Line-Detection-and-Tracking/blob/master/output_images/output2_tracked.mp4) demonstrate our results. Lane lines were successfully detected and tracked. One difficulty occured when a vehicle passed on the right. Evidently, the algorithm picked up on this vehicle as possible lane lines leading to a "flicker". 
