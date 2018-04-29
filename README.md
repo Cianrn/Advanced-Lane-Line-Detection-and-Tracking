@@ -58,7 +58,7 @@ In this section, we map the processed image points, shown above, to different im
 
 Identifying lane pixels is done in `window_tracker.py`. We apply a convolution method. This invloves the summation of the product pf the window template and the vertical slice of the pixel image. The window is slid from left to right over the image. Overlapping values are summed. The highest overlap of pixels are the most likely position for lane lines. The position results are then appended to `window_centroids`. We continue this process for each level in the range of one to image height divided by window height. There are 9 vertical windows which can be seen in the middle figure below. 
 
-<img src="output_images/warped0.jpg" width="250" height="200" /> <img src="output_images/windows0.jpg" width="250" height="200" /> <img src="output_images/lane_curvature.jpeg" width="300" height="225" />
+<img src="output_images/warped0.jpg" width="225" height="175" /> <img src="output_images/windows0.jpg" width="225" height="175" /> <img src="output_images/lane_curvature.jpeg" width="275" height="200" />
 
 ## Measuring Curvature
 ***
