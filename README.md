@@ -10,7 +10,7 @@ The objective of this project is to find and track lane lines in real-time. Adva
 * Identify Pixels and Fit Polynomial
 * Measure Curvature
 
-<img src="output_images/snippet.gif" width="250" height="200" />
+<img src="output_images/Lane-Line-Detection.gif" width="350" height="250" />
 
 ## Camera Calibration
 ***
